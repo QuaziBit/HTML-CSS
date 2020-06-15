@@ -1,0 +1,301 @@
+body {
+    /*border: solid 5px black;*/
+    background-color: #373737;
+
+    margin: 0% 0% 0% 0%;
+}
+
+.header {
+    border-bottom: 2px solid orangered;
+    background-color: #18121e;
+
+    padding: 2% 1% 2% 1%;
+}
+
+.header_large {
+    color: #bdc3c7;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header_small {
+    color: #bdc3c7;
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header_tiny {
+    font-size: 15px;
+}
+
+.menu {
+    border-bottom: 2px solid #18121e;
+    background-color: #DCD0C0;
+
+    color: #031424;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+
+    padding: 1% 1% 1% 1%;
+}
+
+.sections_container {
+    /*border: solid 3px green;*/
+
+    margin: 1% 1% 2% 1%;
+}
+
+/* Select all a: links under class: sections_container */
+.sections_container a {
+    font-weight: bold;
+}
+
+.section_header {
+    border-bottom: 2px solid #18121e;
+    background-color: #1D2731;
+
+    color: #bdc3c7;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.section_body {
+    border-bottom: 2px solid #18121e;
+    background-color: #bdc3c7;
+
+    margin: 0% 0% 1% 0%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+}
+
+
+/*
+.section_element {
+    border: 2px solid white;
+
+    margin: 0% 0% 0.5% 0%;
+}
+*/
+
+
+/*
+.element_icon {
+    border: 2px solid red;
+    
+    float: left;
+
+    width: 4%;
+    height: auto;
+}
+*/
+
+.element_text {
+    /*border: 2px solid orange;*/
+
+    border-left: 5px solid #1D2731;
+    
+    padding: 0.0% 0.0% 0.0% 0.5%;
+
+    display: inline-block;
+}
+
+.element_header {
+    /*border-bottom: 2px solid orangered;*/
+
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 1% 0% 0% 0%;
+}
+
+.element_body {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: inherit;
+
+    margin: 0.1% 0% 1% 0%;
+}
+
+/*============================================================*/
+.sub_section_header {
+    /*border-bottom: 2px solid orangered;*/
+
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 1% 0% 0% 0%;
+}
+
+.sub_section_body {
+
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: inherit;
+
+    margin: 0.1% 0% 1% 0%;
+}
+/*============================================================*/
+
+
+.footer {
+    border-top: 2px solid orangered;
+    background-color: #18121e;
+
+    color: #bdc3c7;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+    padding: 1% 1% 1% 1%;
+}
+
+.h_line {
+    border: 1px solid black;
+    background-color: black;
+
+    display: block;
+
+    margin: 15px 0px 0px 0px;
+}
+
+.home_link {
+    border-left: 5px solid orangered;
+    
+    padding: 0.0% 0.0% 0.0% 0.5%;
+
+    margin: 1% 0% 1% 0%;
+}
+
+/*=======================================*/
+/*
+a:link {
+    color: #031424;
+}
+
+a:visited {
+    color: #B82601;
+}
+
+a:hover {
+    color: orangered;
+}
+
+a:active {
+    color: #031424;
+}
+*/
+
+a:link {
+    text-shadow: 0px 0px 0px;
+    color: #1D2731;
+
+}
+
+a:active {
+    color: #1D2731;
+}
+
+a:visited {
+    color: #1D2731;
+}
+
+a:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+
+/*=======================================*/
+
+/*---------------------------------------*/
+.l1:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l2:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l3:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l4:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l5:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l6:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l7:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l8:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l9:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l10:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l11:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l12:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l13:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l14:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l15:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l16:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l17:hover {
+    text-shadow: 0px 0px 4px orangered;
+    color: rgb(255, 255, 255);
+}
+.l18:hover {
+    text-shadow: 0px 0px 4px rgb(0, 255, 76);
+    color: rgb(255, 255, 255);
+}
+/*---------------------------------------*/
