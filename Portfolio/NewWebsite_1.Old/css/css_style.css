@@ -1,0 +1,267 @@
+/* Apply to all elements */
+/* -------------------------------------- */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #373737;
+}
+/* -------------------------------------- */
+
+/* Header */
+/* -------------------------------------- */
+.header_container {
+    border-bottom: 3px solid wheat; 
+
+    padding: 0.3%;
+
+    width: 100%;
+
+    display: inline-block;
+}
+
+.header_logo {
+    border-right: 3px solid orangered;
+    color: #bdc3c7;
+
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+
+    padding: 0.5% 3% 0.5% 3%;
+    margin-right: 0.5%;
+
+    height: 100%;
+    width: auto;
+
+    float: left;
+
+    display: block;
+}
+
+.header_body {
+    color: #bdc3c7;
+
+    text-align: left;
+    font-weight: bold;
+
+    padding: 0.5%;
+
+    height: 100%;
+    width: auto;
+
+    float: left;
+
+    display: block;
+}
+
+.header {
+    font-size: 22px;
+
+    padding: 2px;
+    margin: 0px 0px 5px 0px;
+}
+
+.menu {
+    font-size: 20px;
+
+    padding: 2px;
+
+    width: 100%;
+
+    display: block;
+}
+
+.menu_element {
+    margin: 8px 10px 0px 0px;
+    padding: 2px;
+    display: inline-block;
+}
+/* -------------------------------------- */
+
+/* Content */
+/* -------------------------------------- */
+.main_container {
+    text-align: left;
+
+    width: 100%;
+
+    padding: 2px;
+    margin: 0px 0px 5px 0px;
+
+    display: inline-block;
+}
+
+.sidenav_container {
+    height: 100%;
+    width: max-content;
+    min-width: 19.5%;
+    max-width: 100%;
+
+    margin-right: 0.5%;
+
+    float: left;
+    display: block;
+
+    position: inherit;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.sidenav_section {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #bdc3c7;
+
+    word-wrap: break-word;
+
+    margin: 0px 0px 2% 0px;
+}
+.ss_header {
+    border-bottom: 1px solid wheat; 
+    background-color: #1D2731;
+    color: #bdc3c7;
+
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+    margin: 0% 0% 2% 0%;
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ss_element {
+    margin: 0px 0px 2% 0px;
+    padding: 0.5%;
+}
+
+.container {
+    height: 100%;
+    
+    width: 80%;
+    /*
+    width: max-content;
+    min-width: 80%;
+    max-width: 100%;
+    */
+
+    float: left;
+
+    display: block;
+}
+
+.element {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #bdc3c7;
+
+    margin: 0% 0% 0.5% 0%;
+}
+.element_header {
+    border-bottom: 1px solid wheat; 
+    background-color: #1D2731;
+    color: #bdc3c7;
+
+    padding: 0.5% 0% 0.5% 0%;
+
+    text-align: center;
+    font-size: 25px;
+
+    font-weight: bold;
+}
+.element_body {
+    padding: 0.5%;
+}
+.sub_header {
+    margin: 0.5% 0% 0% 0%;
+    font-weight: bold;
+}
+.sub_body {
+    margin: 0px 0px 2% 0px;
+
+    word-wrap: break-word;
+}
+/* -------------------------------------- */
+
+
+/* Footer */
+/* -------------------------------------- */
+.footer_container {
+    border-top: 3px solid wheat;
+    background-color: #1D2731;
+    color: #bdc3c7;
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    
+    padding: 4% 0% 1% 0%;
+}
+/* -------------------------------------- */
+
+
+/* Links */
+/* -------------------------------------- */
+/* #6dcef5 */
+a:link {
+    font-weight: bold;
+}
+
+a:link {
+    color: #031424;
+}
+
+a:visited {
+    color: #B82601;
+}
+
+a:hover {
+    color: orangered;
+}
+
+a:active {
+    color: #031424;
+}
+/* -------------------------------------- */
+
+/* Menu links */
+/* -------------------------------------- */
+.menu_element a:link {
+    text-shadow: 0px 0px 4px #bdc3c7;
+    color: #ffffff;
+}
+
+.menu_element a:visited {
+    color: #ffffff;
+}
+
+.menu_element a:hover {
+    text-shadow: 0px 0px 0px ;
+    color: orangered;
+}
+/* -------------------------------------- */
+
+/* Home Link*/
+/* -------------------------------------- */
+.h_line {
+    border: 1px solid black;
+    background-color: black;
+
+    display: block;
+
+    margin: 15px 0px 0px 0px;
+}
+
+.home_link {
+    padding: 0.0% 0.0% 0.0% 0.5%;
+
+    margin: 1% 0% 1% 0%;
+}
+/* -------------------------------------- */
+
+.clear_element {
+    clear: both;
+}

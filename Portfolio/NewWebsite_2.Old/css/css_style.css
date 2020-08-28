@@ -1,0 +1,4 @@
+body {
+    background-image: url("../img/paper_background_tileable.jpg");
+    background-repeat: repeat-y; 
+}
